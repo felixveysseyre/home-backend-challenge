@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentRepository add succeeds to add a payment 1`] = `
+Object {
+  "contractId": "fakeContractId",
+  "createdAt": Any<Date>,
+  "deletedAt": undefined,
+  "description": "Fake description",
+  "id": Any<String>,
+  "time": Any<Date>,
+  "updatedAt": undefined,
+  "value": 123,
+}
+`;
+
+exports[`PaymentRepository delete succeed to delete a payment 1`] = `
+Object {
+  "contractId": "fakeContractId",
+  "createdAt": Any<Date>,
+  "deletedAt": Any<Date>,
+  "description": "Fake description",
+  "id": Any<String>,
+  "time": 1970-01-01T00:00:00.001Z,
+  "updatedAt": Any<Date>,
+  "value": 123,
+}
+`;
+
+exports[`PaymentRepository update succeeds to update payment 1`] = `
+Object {
+  "contractId": "updateFakeContractId",
+  "createdAt": Any<Date>,
+  "deletedAt": undefined,
+  "description": "Updated fake description",
+  "id": Any<String>,
+  "time": 1970-01-01T00:00:00.002Z,
+  "updatedAt": Any<Date>,
+  "value": 1234,
+}
+`;
