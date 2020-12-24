@@ -1,6 +1,6 @@
 import { Test } from '@nestjs/testing';
 import { appModuleMetadata } from '../../app.module';
-import { Payment } from '../../entities/Payment';
+import { Payment } from '../../entities/payment/Payment';
 
 import { PaymentRepository } from './PaymentRepository';
 

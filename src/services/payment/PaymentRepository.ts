@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { nanoid } from 'nanoid';
 
-import { Payment } from '../../entities/Payment';
+import { Payment } from '../../entities/payment/Payment';
 
 @Injectable()
 export class PaymentRepository {
